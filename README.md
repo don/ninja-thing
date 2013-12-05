@@ -17,6 +17,8 @@ ssh to ninja block
     $ git checkout develop
     $ ./bin/install.sh
     $ sudo start ninjablock
+
+If you'd rather not upgrade your ninjablock, you can check out this node script that polls the ninja cloud https://gist.github.com/don/7815374.
  
 ### Installing
 
@@ -37,6 +39,7 @@ After the driver is installed, you should see the Ninja Block Temperature and Hu
 ![alt text](https://github.com/don/ninja-thing/raw/master/thethingsystem.png "The Thing System")
 
 (c) 2013 Don Coleman
+
 License [BSD](LICENSE.txt)
 
 
