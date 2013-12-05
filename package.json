@@ -1,0 +1,24 @@
+{
+  "name": "ninja-thing",
+  "version": "0.0.1",
+  "description": "Send temperature and humidity data from Ninja Blocks to The Thing System via TSRP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/don/ninja-thing"
+  },
+  "keywords": [
+    "ninjablock",
+    "thingsystem",
+    "ninja",
+    "thing",    
+  ],
+  "author": "Don Coleman <don.coleman@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/don/ninja-thing/issues"
+  }
+}
