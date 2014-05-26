@@ -20,7 +20,7 @@ function NinjaThingDriver(opts, app) {
 
     app.on('device::up', function(guid, device) {
 
-        if (device.V === 0 && (device.D === 30 || device.D === 31)) {
+        if (device && device.V === 0 && (device.D === 30 || device.D === 31)) {
             app.log.info('Registering ' + guid + ' for The Thing System notification');
 
             device.on('data', function(value) {
